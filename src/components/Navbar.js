@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between px-32">
+    <nav className="flex justify-between px-32">
       <div>
         <h1 className="text-slate-100 text-xl font-bold">DETERMINIX</h1>
       </div>
@@ -17,6 +17,6 @@ export default function Navbar() {
           agent
         </Link>
       </div>
-    </div>
+    </nav>
   );
 }
