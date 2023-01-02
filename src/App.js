@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-[#00bf8f] to-[#001510]">
+    <div className="bg-[#EEEEEE]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

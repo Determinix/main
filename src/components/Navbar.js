@@ -2,21 +2,15 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between px-32">
+    <nav className="flex justify-between items-center px-32 py-5 bg-[#00ADB5]">
       <div>
-        <h1 className="text-slate-100 text-xl font-bold">DETERMINIX</h1>
+        <h1 className="text-slate-900 text-3xl font-bold"> DETERMINIX</h1>
       </div>
-      <div>
-        <Link to="/" className="px-3">
-          home
-        </Link>
-        <Link to="/Project" className="px-3">
-          project
-        </Link>
-        <Link to="/Agent" className="px-3">
-          agent
-        </Link>
+      <div className="flex gap-10 text-slate-900 text-xl">
+        <Link to="/">home</Link>
+        <Link to="/Project">project</Link>
+        <Link to="/Agent">agent</Link>
       </div>
-    </div>
+    </nav>
   );
 }
