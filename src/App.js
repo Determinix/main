@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-[#EEEEEE]">
+    <div className="bg-[#f9f8f8]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

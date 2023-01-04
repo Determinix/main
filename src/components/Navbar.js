@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
+import DXlogo2 from "./img/logo/DX-logo-2.png";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-32 py-5 bg-[#00ADB5]">
+    <nav className="flex justify-between items-center px-48 py-5 bg-[#DBE2EF]">
       <div>
-        <h1 className="text-slate-900 text-3xl font-bold"> DETERMINIX</h1>
+        <img src={DXlogo2} width="85" />
       </div>
       <div className="flex gap-10 text-slate-900 text-xl">
-        <Link to="/">home</Link>
-        <Link to="/Project">project</Link>
-        <Link to="/Agent">agent</Link>
+        <Link to="/">Home</Link>
+        <Link to="/Project">Project</Link>
+        <Link to="/Agent">Agent</Link>
       </div>
     </nav>
   );
