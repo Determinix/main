@@ -12,7 +12,9 @@ export default function Home() {
           <li>Software Developer (Coming Soon)</li>
           <li>Game Developer (Coming Soon)</li>
         </ul>
-        <button className="bg-[#71C9CE] px-5 py-2 text-xl text-slate-100 my-5 shadow-md rounded-xl hover:bg-[#6de7ee]">Contact Now</button>
+        <button className="relative z-20 mt-5 px-[74px] py-[23px] text-xl border-2 border-slate-900 rounded-[4px]">
+          <div className="absolute  -z-20 top-2 -right-4 px-5 py-3 bg-[#71C9CE] rounded-[4px] text-slate-50 hover:bg-[#41888c]">Contact Now</div>
+        </button>
       </div>
       <div>
         <img src={Aris} width="500" className="rounded-xl shadow-lg shadow-[#71C9CE]" />
