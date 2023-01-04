@@ -8,9 +8,9 @@ export default function Navbar() {
         <img src={DXlogo2} width="85" />
       </div>
       <div className="flex gap-10 text-slate-900 text-xl">
-        <Link to="/">home</Link>
-        <Link to="/Project">project</Link>
-        <Link to="/Agent">agent</Link>
+        <Link to="/">Home</Link>
+        <Link to="/Project">Project</Link>
+        <Link to="/Agent">Agent</Link>
       </div>
     </nav>
   );
