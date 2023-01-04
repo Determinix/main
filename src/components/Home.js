@@ -17,7 +17,9 @@ export default function Home() {
         </button>
       </div>
       <div>
-        <img src={Aris} width="500" className="rounded-xl shadow-lg shadow-[#71C9CE]" />
+        <div className="relative bg-[#71C9CE] w-[455px] h-[257px] rounded-lg shadow-xl">
+          <img src={Aris} width="450" className="absolute -right-3 top-[14px] rounded-lg" />
+        </div>
       </div>
     </div>
   );
