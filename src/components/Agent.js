@@ -1,6 +1,6 @@
 export default function Agent() {
   return (
-    <div>
+    <div className="px-48">
       <span className="font-bold text-red-500">Determinix Agents</span>
       <ol>
         <li>Agung Saputra</li>
