@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div>
           <div className="relative bg-[#71C9CE] w-[455px] h-[257px] rounded-lg shadow-xl">
-            <img src={Aris} width="450" className="absolute -right-3 top-[14px] rounded-lg" />
+            <img src={Aris} alt="aris maskot sementara" width="450" className="absolute -right-3 top-[14px] rounded-lg" />
           </div>
         </div>
       </div>
