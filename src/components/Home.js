@@ -23,9 +23,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mx-auto w-[600px] text-center bg-[#71C9CE] text-slate-50 mt-32">
-        <h1 className="text-3xl font-bold pt-10">Achievement</h1>
-        <h1 className="text-[100px] py-10">0</h1>
+      <div className="relative mx-auto w-[850px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-96">
+        <div className="absolute -top-10 left-[220px] text-3xl font-bold bg-slate-100 w-[50%] rounded-xl py-5 border-4 border-[#2bc2ca] shadow-lg">Preview Project</div>
       </div>
     </div>
   );
