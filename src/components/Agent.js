@@ -2,16 +2,105 @@ import Agung from "./img/profile/Agung.jpg";
 
 export default function Agent() {
   return (
-    <div>
-      <h1 className="pt-20 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
-      <div className="mx-auto w-[285px] h-[200px] shadow-2xl bg-slate-300">
-        <div className="flex items-center justify-between p-3">
-          <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
-          <div>
-            <h1 className="text-xl text-center">Agung Saputra</h1>
-            <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-            <h1 className="text-xl text-center">President</h1>
+    <div className="lg:mx-40 pb-10">
+      <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
+      <div className="flex justify-between items-center">
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">Agung Saputra</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">President</h1>
+            </div>
           </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">A**C**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">S**A**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">D**R**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+      </div>
+
+      <div className="flex justify-between items-center pt-5">
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">K**S**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">W**H**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">B**M**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
+        </div>
+
+        <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
+          <div className="flex items-center justify-between p-3">
+            <img alt="???" className="w-[100px] h-[100px]" />
+            <div>
+              <h1 className="text-xl text-center">A**S**</h1>
+              <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
+              <h1 className="text-xl text-center">******</h1>
+            </div>
+          </div>
+          <div>Title here</div>
         </div>
       </div>
     </div>
