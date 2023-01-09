@@ -4,6 +4,20 @@ export default function Agent() {
   return (
     <div className="lg:mx-40 pb-10">
       <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
+
+      <div id="sosmed" className="flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500">
+        <h1 className="pr-3 text-xl">tap the card to open social media</h1>
+        <button
+          className="font-bold text-2xl"
+          onClick={function hide() {
+            const sosmed = document.querySelector("#sosmed");
+            sosmed.style.display = "none";
+          }}
+        >
+          x
+        </button>
+      </div>
+
       <div className="flex justify-between items-center">
         <div className="w-[285px] h-[180px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
