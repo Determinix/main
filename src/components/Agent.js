@@ -2,7 +2,7 @@ import Agung from "./img/profile/Agung.jpg";
 
 export default function Agent() {
   return (
-    <div className="lg:mx-40 pb-32">
+    <div className="lg:mx-40 pb-32 pt-24">
       <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
 
       <div id="sosmed" className="flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500">

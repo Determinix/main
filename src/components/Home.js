@@ -3,8 +3,8 @@ import Tilt from "react-tilt";
 
 export default function Home() {
   return (
-    <div className="relative px-80">
-      <div className=" py-32 flex justify-between items-center">
+    <div className="relative px-80 pt-48">
+      <div className=" pb-32 flex justify-between items-center">
         <div>
           <h1 className="text-5xl font-bold text-slate-900">DETERMINIX</h1>
           <h1 className="text-xl font-bold text-slate-500">What Is Determinix?</h1>

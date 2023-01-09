@@ -1,6 +1,6 @@
 export default function Agent() {
   return (
-    <div className="mb-28 xl:mx-48">
+    <div className="mb-28 xl:mx-48 pt-24">
       <h1 className="pt-20 pb-16 text-slate-900 font-bold text-4xl text-center">OUR PROJECT</h1>
       <div className="flex justify-between items-center">
         <div className="relative w-[350px] h-[225px] bg-slate-200 shadow-xl">
