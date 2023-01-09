@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[1000px] z-20">
+      <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[630px] z-20">
         <div className="absolute -top-10 left-[220px] text-3xl font-bold bg-slate-100 w-[50%] rounded-xl py-5 border-4 border-[#2bc2ca] shadow-lg z-10">Preview Project</div>
         <Tilt className="absolute top-[120px] -left-10 w-[600px] h-[320px] bg-slate-300 rounded-xl shadow-xl ">
           Main Preview Here
