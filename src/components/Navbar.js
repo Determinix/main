@@ -3,7 +3,7 @@ import DXlogo2 from "./img/logo/DX-logo-2.png";
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="fixed z-50 w-full">
       <div className="flex justify-between items-center px-48 bg-[#71C9CE]">
         <div>
           <img src={DXlogo2} alt="dxlogo" width="85" />
