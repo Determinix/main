@@ -30,7 +30,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -39,9 +39,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -50,9 +50,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -61,8 +61,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
-        <div className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        </a>
+
+        <a className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -71,9 +72,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -82,9 +83,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -93,9 +94,9 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -104,7 +105,7 @@ export default function Agent() {
               <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
