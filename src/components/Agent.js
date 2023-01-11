@@ -18,7 +18,7 @@ export default function Agent() {
         </button>
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="grid grid-cols-4 gap-6">
         <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
@@ -62,9 +62,6 @@ export default function Agent() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div href="#" target={"_blank"} className="flex justify-between items-center pt-5">
         <div className="w-[285px] h-[125px] shadow-2xl bg-slate-300">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
