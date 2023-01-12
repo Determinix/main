@@ -124,16 +124,6 @@ export default function Agent() {
           </div>
         </div>
       </div>
-
-      <div className="flex justify-between items-center"></div>
-
-      <div className="mt-10 flex justify-between items-center"></div>
-
-      <div className="mt-7 flex justify-between items-center"></div>
-
-      <div className="mt-7 flex justify-between items-center"></div>
-
-      <div className="mt-7 flex justify-between items-center"></div>
     </div>
   );
 }
