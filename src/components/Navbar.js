@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
           <img src={DXlogo2} alt="dxlogo" width="85" />
         </div>
-        <div className="flex gap-10 text-slate-50 fontb text-xl">
+        <div className="flex gap-10 text-slate-50 px-3 text-xl">
           <Link
             to="/"
             onClick={function hide() {
