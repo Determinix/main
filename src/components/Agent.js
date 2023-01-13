@@ -5,7 +5,7 @@ export default function Agent() {
     <div className="lg:mx-40 pb-32 pt-24">
       <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
 
-      <div id="sosmed" className="flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500">
+      <div id="sosmed" className="sm:flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500 hidden">
         <h1 className="pr-3 text-xl">Tap the card to open social media</h1>
         <button
           className="font-bold text-red-600 text-2xl"
@@ -18,7 +18,7 @@ export default function Agent() {
         </button>
       </div>
 
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-4 grid-cols-1 gap-6 px-5 sm:px-0">
         <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-200 hover:bg-slate-100">
           <div className="flex items-center justify-between p-3">
             <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
@@ -30,7 +30,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ml-11">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -52,7 +52,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ml-11">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -74,7 +74,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ml-11">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -85,7 +85,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
@@ -96,7 +96,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100">
+        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ml-11">
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
