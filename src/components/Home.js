@@ -3,9 +3,9 @@ import Tilt from "react-tilt";
 
 export default function Home() {
   return (
-    <div className="relative px-80 pt-48">
-      <div className=" pb-32 flex justify-between items-center">
-        <div>
+    <div className="relative sm:px-80 px-5 pt-48">
+      <div className=" pb-32 sm:flex justify-between items-center place-items-center">
+        <div className="mb-24 sm:mb-0">
           <h1 className="text-5xl font-bold text-slate-900">DETERMINIX</h1>
           <h1 className="text-xl font-bold text-slate-500">What Is Determinix?</h1>
           <span className="text-xl py-2">Determinix is ​a team that works in:</span>
@@ -18,14 +18,15 @@ export default function Home() {
             <div className="absolute  -z-20 top-2 -right-4 px-5 py-3 bg-[#71C9CE] rounded-[4px] text-slate-50 hover:bg-[#41888c]">Contact Now</div>
           </button>
         </div>
+
         <div>
-          <div className="relative bg-[#71C9CE] w-[455px] h-[257px] rounded-lg shadow-xl">
-            <img src={Aris} alt="aris maskot sementara" width="450" className="absolute -right-3 top-[14px] rounded-lg z-20" />
-            <div className="absolute bg-yellow-400 w-[455px] h-[257px] rounded-lg shadow-xl z-10 -right-7 top-[27px]"></div>
+          <div className="relative bg-[#71C9CE] w-[335px] h-[190px] sm:w-[455px] sm:h-[257px] rounded-lg shadow-xl">
+            <img src={Aris} alt="aris maskot sementara" className="absolute -right-3 top-[14px] rounded-lg z-20 w-[330px] sm:w-[450px]" />
+            <div className="absolute bg-yellow-400 w-[335px] h-[190px] sm:w-[455px] sm:h-[257px] rounded-lg shadow-xl z-10 -right-7 top-[27px]"></div>
           </div>
         </div>
       </div>
-      <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[630px] z-20">
+      <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[630px] z-20 hidden sm:flex">
         <div className="absolute -top-10 left-[220px] text-3xl font-bold bg-slate-100 w-[50%] rounded-xl py-5 border-4 border-[#2bc2ca] shadow-lg z-10">Preview Project</div>
         <Tilt className="absolute top-[120px] -left-10 w-[600px] h-[320px] bg-slate-300 rounded-xl shadow-xl ">
           Main Preview Here
