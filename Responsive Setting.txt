@@ -1,1 +1,3 @@
-Agung
+mobile  (Samsung A51)   : "" 
+Lepy mini (Albi,etc)    : "lg"
+Lepy (Agung Aru)        : "xl"
