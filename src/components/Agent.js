@@ -1,5 +1,6 @@
 import Agung from "./img/profile/Agung.jpg";
 import Aru from "./img/profile/Aru.jpeg";
+import Albi from "./img/profile/Albi.jpg";
 
 export default function Agent() {
   return (
@@ -42,13 +43,13 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 -ml-16 sm:ml-16">
+        <a href="https://www.instagram.com/salf_yurara/?hl=id" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 -ml-16 sm:ml-16">
           <div className="flex items-center justify-between p-3">
-            <img alt="???" className="w-[100px] h-[100px]" />
+            <img src={Albi} alt="Albi" className="w-[100px] h-[100px]" />
             <div>
-              <h1 className="text-xl text-center">S**A**</h1>
+              <h1 className="text-xl text-center">Albi Fahri</h1>
               <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-              <h1 className="text-xl text-center">******</h1>
+              <h1 className="text-xl text-center">Kuroneko</h1>
             </div>
           </div>
         </a>
