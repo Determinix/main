@@ -45,9 +45,9 @@ export default function Agent() {
           <div className="flex items-center justify-between p-3">
             <img alt="???" className="w-[100px] h-[100px]" />
             <div>
-              <h1 className="text-xl text-center">S**A**</h1>
+              <h1 className="text-xl text-center">Albi Fahri</h1>
               <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-              <h1 className="text-xl text-center">******</h1>
+              <h1 className="text-xl text-center">Emperor</h1>
             </div>
           </div>
         </a>

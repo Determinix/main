@@ -1,5 +1,4 @@
 import Aris from "./img/logo/Aris.png";
-import Tilt from "react-tilt";
 
 export default function Home() {
   return (
@@ -28,18 +27,18 @@ export default function Home() {
       </div>
       <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[630px] z-20 hidden sm:flex">
         <div className="absolute -top-10 left-[220px] text-3xl font-bold bg-slate-100 w-[50%] rounded-xl py-5 border-4 border-[#2bc2ca] shadow-lg z-10">Preview Project</div>
-        <Tilt className="absolute top-[120px] -left-10 w-[600px] h-[320px] bg-slate-300 rounded-xl shadow-xl ">
+        <div className="absolute top-[120px] -left-10 w-[600px] h-[320px] bg-slate-300 rounded-xl shadow-xl ">
           Main Preview Here
           <div className="absolute w-[400px] py-5 left-10 -bottom-10 bg-yellow-400 text-slate-50 text-4xl rounded-xl">WEBSITE PROJECT</div>
-        </Tilt>
-        <Tilt className="absolute top-[90px] -right-10 w-[320px] h-[180px] bg-slate-300 rounded-xl shadow-xl">
+        </div>
+        <div className="absolute top-[90px] -right-10 w-[320px] h-[180px] bg-slate-300 rounded-xl shadow-xl">
           Cool Preview Here
           <div className="absolute w-[90px] py-2 right-10 -bottom-2 bg-yellow-400 text-slate-50 text-xl rounded-xl">Cool</div>
-        </Tilt>
-        <Tilt className="absolute top-[310px] right-20 w-[170px] h-[270px] bg-slate-300 rounded-xl shadow-xl">
+        </div>
+        <div className="absolute top-[310px] right-20 w-[170px] h-[270px] bg-slate-300 rounded-xl shadow-xl">
           Mobile Preview Here
           <div className="absolute w-[140px] py-2 -right-16 bottom-7 bg-yellow-400 text-slate-50 text-xl rounded-xl">Responsive</div>
-        </Tilt>
+        </div>
       </div>
     </div>
   );
