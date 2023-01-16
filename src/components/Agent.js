@@ -48,7 +48,7 @@ export default function Agent() {
             <div>
               <h1 className="text-xl text-center">Albi Fahri</h1>
               <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-              <h1 className="text-xl text-center">Hentai</h1>
+              <h1 className="text-xl text-center">Kuroneko</h1>
             </div>
           </div>
         </a>
