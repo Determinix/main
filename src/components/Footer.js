@@ -1,5 +1,3 @@
-import DXlogo2 from "./img/logo/DX-logo-2.png";
-
 export default function Footer() {
   return (
     <footer className="flex justify-between bg-slate-900 text-white py-24 lg:text-center">
