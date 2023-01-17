@@ -27,7 +27,7 @@ export default function Agent() {
             <div>
               <h1 className="text-xl text-center">Agung Saputra</h1>
               <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-              <h1 className="text-xl text-center">President</h1>
+              <h1 className="text-xl text-center">Difhaels</h1>
             </div>
           </div>
         </a>
@@ -38,7 +38,7 @@ export default function Agent() {
             <div>
               <h1 className="text-xl text-center">Aru Chevy</h1>
               <div className="w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px]"></div>
-              <h1 className="text-xl text-center">CEO</h1>
+              <h1 className="text-xl text-center">******</h1>
             </div>
           </div>
         </a>
