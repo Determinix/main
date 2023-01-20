@@ -7,7 +7,7 @@ export default function Agent() {
     <div className="lg:mx-40 pb-32 pt-24">
       <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
 
-      <div id="sosmed" className="sm:flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500 hidden">
+      <div id="sosmed" className="lg:flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500 hidden">
         <h1 className="pr-3 text-xl">Tap the card to open social media</h1>
         <button
           className="font-bold text-red-600 text-2xl"
