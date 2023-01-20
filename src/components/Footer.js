@@ -2,8 +2,8 @@ import DXlogo1 from "./img/logo/DX-logo-1.png";
 
 export default function Footer() {
   return (
-    <footer className="justify-between bg-slate-900 text-white py-24">
-      <div className="flex justify-center">
+    <footer className="justify-between bg-slate-900 text-white sm:py-24">
+      <div className="sm:flex justify-center hidden">
         <a className="my-9 mr-52">
           <img src={DXlogo1} width="70" />
         </a>
@@ -29,9 +29,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white"></div>
+      <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden sm:flex"></div>
 
-      <div className="flex pt-10 justify-center gap-5">
+      <div className="flex py-10 justify-center gap-5">
         <a href="https://wa.me/+62895337305533" target="_blank">
           <svg role="img" width="40" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>WhatsApp</title>
