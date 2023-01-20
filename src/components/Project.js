@@ -1,6 +1,6 @@
 export default function Agent() {
   return (
-    <div className="mb-28 pt-24 sm:mx-48">
+    <div className="mb-28 pt-24 lg:mx-16 xl:mx-48">
       <h1 className="pt-20 pb-16 text-slate-900 font-bold text-4xl text-center">OUR PROJECT</h1>
 
       <div className="grid sm:grid-cols-3 place-items-center gap-7 grid-cols-1">
