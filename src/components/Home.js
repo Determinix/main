@@ -2,7 +2,7 @@ import Aris from "./img/logo/Aris.png";
 
 export default function Home() {
   return (
-    <div className="relative sm:px-80 px-5 pt-48">
+    <div className="relative lg:px-52 xl:px-80 px-5 pt-48">
       <div className=" pb-32 sm:flex justify-between items-center place-items-center">
         <div className="mb-24 sm:mb-0">
           <h1 className="text-5xl font-bold text-slate-900">DETERMINIX</h1>
