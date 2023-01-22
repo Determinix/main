@@ -4,7 +4,7 @@ import DXlogo2 from "./img/logo/DX-logo-2.png";
 export default function Navbar() {
   return (
     <nav className="fixed z-50 w-full">
-      <div className="flex justify-between items-center lg:px-16 xl:px-48 bg-[#71C9CE] relative">
+      <div className="flex justify-between items-center sm:px-20 2xl:px-48 bg-[#71C9CE] relative">
         <div>
           <img src={DXlogo2} alt="dxlogo" width="85" />
         </div>
