@@ -1,10 +1,9 @@
 mobile  (Samsung A51)   : "" 
-Lepy mini (Albi,etc)    : "lg"
-Lepy (Agung Aru)        : "xl"
+Lepy mini (Albi,etc)    : "xl"
+Lepy (Agung Aru)        : "2xl"
 
-
-none = min width 0cm/0px
-sm = min width 16cm/640px
-md = min width 20cm/768px
-lg = min width 27cm/1024px
-xl = min width 33cm/1280px
+sm: "640px"
+md: "768px",
+lg: "1024px",
+xl: "1280px",
+"2xl": "1530px",

@@ -5,3 +5,15 @@
 .navbar-fixed {
   @apply fixed z-50;
 }
+
+.card-project {
+  @apply relative w-[350px] h-[225px] bg-slate-100 shadow-2xl;
+}
+
+.card-project-image {
+  @apply absolute right-[10px] w-[330px] h-[160px] top-[10px] bg-slate-400 flex justify-center items-center text-5xl;
+}
+
+.card-project-btn {
+  @apply mx-[10px] absolute w-[325px] top-[180px] flex justify-between items-center;
+}

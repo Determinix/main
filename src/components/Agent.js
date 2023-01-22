@@ -20,7 +20,7 @@ export default function Agent() {
         </button>
       </div>
 
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
+      <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
         <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-200 hover:bg-slate-100 -ml-16 sm:ml-16">
           <div className="flex items-center justify-between p-3">
             <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
