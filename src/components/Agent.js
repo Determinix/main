@@ -7,7 +7,7 @@ export default function Agent() {
     <div className="xl:mx-40 lg:mx-12 pb-32 pt-24">
       <h1 className="pt-20 pb-14 font-bold text-slate-900 text-4xl text-center">DX AGENTS</h1>
 
-      <div id="sosmed" className="xl:flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500 hidden">
+      <div id="sosmed" className="2xl:flex justify-center items-center mb-8 mx-[420px] border-2 border-yellow-200 rounded-2xl text-slate-500 hidden">
         <h1 className="pr-3 text-xl">Tap the card to open social media</h1>
         <button
           className="font-bold text-red-600 text-2xl"
@@ -20,7 +20,7 @@ export default function Agent() {
         </button>
       </div>
 
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
+      <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
         <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} className="w-[285px] h-[125px] shadow-2xl bg-slate-200 hover:bg-slate-100 -ml-16 sm:ml-16">
           <div className="flex items-center justify-between p-3">
             <img src={Agung} alt="Agung" className="w-[100px] h-[100px]" />
