@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
-import DXlogo2 from "./img/logo/DX-logo-2.png";
+import DXlogo3 from "./img/logo/DX-logo-3.png";
 
 export default function Navbar() {
   return (
     <nav className="fixed z-50 w-full">
-      <div className="flex justify-between items-center sm:px-20 2xl:px-48 bg-[#71C9CE] relative">
+      <div className="flex justify-between items-center sm:px-20 2xl:px-48 bg-slate-800 relative">
         <div>
-          <img src={DXlogo2} alt="dxlogo" width="85" />
+          <img src={DXlogo3} alt="dxlogo" width="85" className="p-3 m-2" />
         </div>
         {/* desktop */}
         <div className="sm:flex gap-10 text-slate-50 px-3 text-xl items-center hidden">
           <Link
+            className="hover:text-slate-300"
             to="/"
             onClick={function hide() {
               const home = document.querySelector("#home");
@@ -20,6 +21,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
+            className="hover:text-slate-300"
             to="/Project"
             onClick={function hide() {
               const home = document.querySelector("#home");
@@ -29,6 +31,7 @@ export default function Navbar() {
             Project
           </Link>
           <Link
+            className="hover:text-slate-300"
             to="/Agent"
             onClick={function hide() {
               const home = document.querySelector("#home");
@@ -38,6 +41,7 @@ export default function Navbar() {
             Agent
           </Link>
         </div>
+
         {/* mobile */}
         <div className="gap-3 py-2 rounded-md text-slate-50 px-3 text-xl items-center sm:hidden absolute bg-slate-600 right-3 top-24 hidden" id="nav">
           <Link
@@ -82,7 +86,7 @@ export default function Navbar() {
           <div className="ml-[15px] bg-slate-100 w-[25px] h-[10px]"></div>
         </div>
       </div>
-      <div className="h-[6px] bg-yellow-400"></div>
+      {/* <div className="h-[6px] bg-yellow-400"></div> */}
     </nav>
   );
 }
