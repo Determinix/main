@@ -1,44 +1,32 @@
-import Aris from "./img/logo/Aris.png";
+import Hina from "./img/logo/Hina.png";
 
 export default function Home() {
   return (
-    <div className="relative lg:px-36 2xl:px-80 px-5 pt-48">
-      <div className=" pb-32 sm:flex justify-between items-center place-items-center">
-        <div className="mb-24 sm:mb-0">
-          <h1 className="text-5xl font-bold text-slate-900">DETERMINIX</h1>
-          <h1 className="text-xl font-bold text-slate-500">What Is Determinix?</h1>
-          <span className="text-xl py-2">Determinix is ​a team that works in:</span>
-          <ul className="list-disc text-xl pl-10">
-            <li>Website Developer</li>
-            <li>Software Developer (Coming Soon)</li>
-            <li>Game Developer (Coming Soon)</li>
-          </ul>
-          <button className="relative z-20 mt-5 px-[74px] py-[23px] text-xl border-2 border-slate-900 rounded-[4px]">
-            <div className="absolute  -z-20 top-2 -right-4 px-5 py-3 bg-[#71C9CE] rounded-[4px] text-slate-50 hover:bg-[#41888c]">Contact Now</div>
-          </button>
-        </div>
-
-        <div>
-          <div className="relative bg-[#71C9CE] w-[335px] h-[190px] sm:w-[455px] sm:h-[257px] rounded-lg shadow-xl">
-            <img src={Aris} alt="aris maskot sementara" className="absolute -right-3 top-[14px] rounded-lg z-20 w-[330px] sm:w-[450px]" />
-            <div className="absolute bg-yellow-400 w-[335px] h-[190px] sm:w-[455px] sm:h-[257px] rounded-lg shadow-xl z-10 -right-7 top-[27px]"></div>
-          </div>
-        </div>
+    <div className=" ">
+      <div className="relative px-5 bg-gray-700 py-56 grid place-items-center text-center">
+        <img src={Hina} className="opacity-10 absolute bottom-0 xl:right-32 2xl:right-48" alt="hina" />
+        <h1 className="text-[58px] font-bold text-[#ff2c2c]">DETERMINIX</h1>
+        <h1 className="text-white text-3xl pt-3">A team to study and work in the field of programmers. </h1>
+        <a className="bg-slate-100 px-5 py-3 text-2xl hover:bg-slate-400 mt-10 relative" href="https://wa.me/+62895337305533" target={"_blank"} rel="noreferrer">
+          Contact Us
+        </a>
       </div>
-      <div className="relative mx-auto w-[900px] text-center bg-[#71C9CE] mt-32 rounded-t-2xl pb-[630px] z-20 hidden sm:flex">
-        <div className="absolute -top-10 left-[220px] text-3xl font-bold bg-slate-100 w-[50%] rounded-xl py-5 border-4 border-[#2bc2ca] shadow-lg z-10">Preview Project</div>
-        <div className="absolute top-[120px] -left-10 w-[600px] h-[320px] bg-slate-300 rounded-xl shadow-xl ">
-          Main Preview Here
-          <div className="absolute w-[400px] py-5 left-10 -bottom-10 bg-yellow-400 text-slate-50 text-4xl rounded-xl">WEBSITE PROJECT</div>
-        </div>
-        <div className="absolute top-[90px] -right-10 w-[320px] h-[180px] bg-slate-300 rounded-xl shadow-xl">
-          Cool Preview Here
-          <div className="absolute w-[90px] py-2 right-10 -bottom-2 bg-yellow-400 text-slate-50 text-xl rounded-xl">Cool</div>
-        </div>
-        <div className="absolute top-[310px] right-20 w-[170px] h-[270px] bg-slate-300 rounded-xl shadow-xl">
-          Mobile Preview Here
-          <div className="absolute w-[140px] py-2 -right-16 bottom-7 bg-yellow-400 text-slate-50 text-xl rounded-xl">Responsive</div>
-        </div>
+      <div className="px grid lg:grid-cols-3 gap-20 text-xl my-28">
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Web Developer</h1>
+          Is a person who specializes in the development of World Wide Web applications using a combination of languages such as HTML, CSS, JavaScript, and others. They use these languages to create websites, web applications, and web
+          services.
+          <h1 className="pt-3">Determinix currently focuses on web developers.</h1>
+        </span>
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Mobile Developer</h1>
+          Is a software developer who specializes in creating mobile applications for smartphones and tablets. Mobile developers typically use programming languages such as Swift for iOS, Kotlin for Android.{" "}
+          <h1 className="pt-3">(Coming Soon)</h1>
+        </span>
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Game Developer</h1>
+          Is a person or a team of people who create video games. They can be involved in various aspects of game development, from design and programming to art and sound. <h1 className="pt-3">(Coming Soon)</h1>
+        </span>
       </div>
     </div>
   );

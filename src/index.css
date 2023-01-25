@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.px {
+  @apply px-6 sm:px-20 2xl:px-32;
+  /* for responsive padding x  */
+}
+
 .navbar-fixed {
   @apply fixed z-50;
 }
