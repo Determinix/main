@@ -86,7 +86,6 @@ export default function Navbar() {
           <div className="ml-[15px] bg-slate-50 w-[25px] h-[10px]"></div>
         </div>
       </div>
-      {/* <div className="h-[6px] bg-yellow-400"></div> */}
     </nav>
   );
 }
