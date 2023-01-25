@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .px {
-  @apply sm:px-20 2xl:px-32;
+  @apply px-6 sm:px-20 2xl:px-32;
   /* for responsive padding x  */
 }
 

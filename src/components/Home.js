@@ -11,7 +11,7 @@ export default function Home() {
           Contact Us
         </a>
       </div>
-      <div className="px grid grid-cols-3 gap-20 text-xl my-28">
+      <div className="px grid lg:grid-cols-3 gap-20 text-xl my-28">
         <span className="text-start">
           <h1 className="font-bold text-2xl pb-3">Web Developer</h1>
           Is a person who specializes in the development of World Wide Web applications using a combination of languages such as HTML, CSS, JavaScript, and others. They use these languages to create websites, web applications, and web
