@@ -32,13 +32,13 @@ export default function Navbar() {
           </Link>
           <Link
             className="hover:text-slate-300"
-            to="/Agent"
+            to="/About"
             onClick={function hide() {
               const home = document.querySelector("#home");
               home.style.display = "none";
             }}
           >
-            Agent
+            About
           </Link>
         </div>
 
@@ -65,14 +65,14 @@ export default function Navbar() {
             Project
           </Link>
           <Link
-            to="/Agent"
+            to="/About"
             onClick={function hide() {
               const home = document.querySelector("#home");
               home.style.display = "none";
             }}
             className="block"
           >
-            Agent
+            About
           </Link>
         </div>
         <div
