@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="fixed z-50 w-full">
       <div className="flex justify-between items-center px bg-slate-800 relative">
         <div>
-          <img src={DXlogo3} alt="dxlogo" width="85" className="py-3 my-2" />
+          <img src={DXlogo3} alt="dxlogo" width="85" className="p-3 my-2" />
         </div>
         {/* desktop */}
         <div className="sm:flex gap-10 text-slate-50 px-3 text-xl items-center hidden">
