@@ -7,25 +7,25 @@ export default function Home() {
         <img src={Hina} className="opacity-10 absolute bottom-0 xl:right-32 2xl:right-48" alt="hina" />
         <h1 className="text-[58px] font-bold text-[#ff2c2c]">DETERMINIX</h1>
         <h1 className="text-white text-3xl pt-3">A team to study and work in the field of programmers. </h1>
-        <a className="bg-slate-100 px-5 py-3 text-2xl hover:bg-slate-400 mt-10 relative" href="https://reactjs.org/" target={"_blank"} rel="noreferrer">
+        <a className="bg-slate-100 px-5 py-3 text-2xl hover:bg-slate-400 mt-10 relative" href="https://wa.me/+62895337305533" target={"_blank"} rel="noreferrer">
           Contact Us
         </a>
       </div>
-      <div className="px grid grid-cols-3 gap-16 text-xl my-28">
-        <span className="text-justify">
-          <h1 className="inline-block font-bold">Web Developer &nbsp;</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a eros venenatis diam tristique aliquam ultrices id purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris congue rutrum lectus, non dapibus
-          ligula sagittis id. Vivamus ut faucibus nunc, sit amet porttitor nibh. Pellentesque quis eros dictum, tincidunt.
+      <div className="px grid grid-cols-3 gap-20 text-xl my-28">
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Web Developer</h1>
+          Is a person who specializes in the development of World Wide Web applications using a combination of languages such as HTML, CSS, JavaScript, and others. They use these languages to create websites, web applications, and web
+          services.
+          <h1 className="pt-3">Determinix currently focuses on web developers.</h1>
         </span>
-        <span className="text-justify">
-          <h1 className="inline-block font-bold">Mobile Developer &nbsp;</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a eros venenatis diam tristique aliquam ultrices id purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris congue rutrum lectus, non dapibus
-          ligula sagittis id. Vivamus ut faucibus nunc, sit amet porttitor nibh. Pellentesque quis eros dictum, tincidunt.
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Mobile Developer</h1>
+          Is a software developer who specializes in creating mobile applications for smartphones and tablets. Mobile developers typically use programming languages such as Swift for iOS, Kotlin for Android.{" "}
+          <h1 className="pt-3">(Coming Soon)</h1>
         </span>
-        <span className="text-justify">
-          <h1 className="inline-block font-bold">Game Developer &nbsp;</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a eros venenatis diam tristique aliquam ultrices id purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris congue rutrum lectus, non dapibus
-          ligula sagittis id. Vivamus ut faucibus nunc, sit amet porttitor nibh. Pellentesque quis eros dictum, tincidunt.
+        <span className="text-start">
+          <h1 className="font-bold text-2xl pb-3">Game Developer</h1>
+          Is a person or a team of people who create video games. They can be involved in various aspects of game development, from design and programming to art and sound. <h1 className="pt-3">(Coming Soon)</h1>
         </span>
       </div>
     </div>
