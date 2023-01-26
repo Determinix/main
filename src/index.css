@@ -7,7 +7,7 @@
   @apply px-6 sm:px-20 2xl:px-32;
   /* for responsive padding x  */
 }
-.pb {
+.py {
   @apply pb-28 pt-24;
 }
 /* Universal End */
