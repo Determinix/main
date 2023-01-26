@@ -1,6 +1,6 @@
-export default function Agent() {
+export default function Project() {
   return (
-    <div className="mb-28 pt-24 sm:mx-20 2xl:mx-48">
+    <div className="py px">
       <h1 className="pt-20 pb-16 text-slate-900 font-bold text-4xl text-center">OUR PROJECT</h1>
 
       <div className="grid xl:grid-cols-3 2xl:grid-cols-3 mx-0 sm:mx-72 xl:mx-0 place-items-center gap-7 grid-cols-1">
@@ -8,7 +8,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -16,7 +16,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ export default function Agent() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
       </div>
