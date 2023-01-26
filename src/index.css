@@ -35,3 +35,21 @@
   @apply text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50;
 }
 /* Project End */
+
+/* Agent Start */
+.card-agent-odd {
+  @apply w-[285px] h-[125px] shadow-2xl bg-slate-200 hover:bg-slate-100 -ml-16 sm:ml-16 flex items-center justify-between p-3;
+}
+.card-agent-even {
+  @apply w-[285px] h-[125px] shadow-2xl  bg-slate-200 hover:bg-slate-100 ml-16 flex items-center justify-between p-3;
+}
+.card-image-about {
+  @apply w-[100px] h-[100px];
+}
+.card-line-about {
+  @apply w-[150px] h-[2px] bg-slate-900 mx-auto mt-[3px];
+}
+.card-text-about {
+  @apply text-xl text-center;
+}
+/* Agent End */
