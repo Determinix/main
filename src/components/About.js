@@ -21,7 +21,7 @@ export default function Agent() {
       </div>
 
       <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} className="card-agent-odd">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
           <img src={Agung} alt="Agung" className="card-image-about" />
           <div>
             <h1 className="card-text-about">Agung Saputra</h1>
@@ -30,7 +30,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="https://www.instagram.com/aruchvy_/" target={"_blank"} className="card-agent-even">
+        <a href="https://www.instagram.com/aruchvy_/" target={"_blank"} rel="noreferrer" className="card-agent-even">
           <img src={Aru} alt="Aru" className="card-image-about" />
           <div>
             <h1 className="card-text-about">Aru Chevy</h1>
@@ -39,7 +39,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="https://www.instagram.com/salf_yurara/?hl=id" target={"_blank"} className="card-agent-odd">
+        <a href="https://www.instagram.com/salf_yurara/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
           <img src={Albi} alt="Albi" className="card-image-about" />
           <div>
             <h1 className="card-text-about">Albi Fahri</h1>
@@ -48,7 +48,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="card-agent-even">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
           <img alt="???" className="card-image-about" />
           <div>
             <h1 className="card-text-about">????</h1>
@@ -57,7 +57,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a className="card-agent-odd">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
           <img alt="???" className="card-image-about" />
           <div>
             <h1 className="card-text-about">????</h1>
@@ -66,7 +66,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="card-agent-even">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
           <img alt="???" className="card-image-about" />
           <div>
             <h1 className="card-text-about">????</h1>
@@ -75,7 +75,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="card-agent-odd">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
           <img alt="???" className="card-image-about" />
           <div>
             <h1 className="text-xl text-center">????</h1>
@@ -84,7 +84,7 @@ export default function Agent() {
           </div>
         </a>
 
-        <a href="#" target={"_blank"} className="card-agent-even">
+        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
           <img alt="???" className="card-image-about" />
           <div>
             <h1 className="text-xl text-center">????</h1>
