@@ -2,15 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Universal Start */
 .px {
   @apply px-6 sm:px-20 2xl:px-32;
   /* for responsive padding x  */
 }
+.pb {
+  @apply pb-28 pt-24;
+}
+/* Universal End */
 
+/* Navbar start */
 .navbar-fixed {
   @apply fixed z-50;
 }
+/* Navbar End */
 
+/* Project Start */
 .card-project {
   @apply relative w-[325px] h-[200px] 2xl:w-[350px] 2xl:h-[225px] bg-slate-100 shadow-2xl;
 }
@@ -22,3 +30,4 @@
 .card-project-btn {
   @apply mx-[10px] absolute w-[300px] top-[155px] 2xl:w-[325px] 2xl:top-[180px] flex justify-between items-center;
 }
+/* Project End */
