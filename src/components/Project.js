@@ -1,4 +1,4 @@
-export default function Agent() {
+export default function About() {
   return (
     <div className="pb px">
       <h1 className="pt-20 pb-16 text-slate-900 font-bold text-4xl text-center">OUR PROJECT</h1>
