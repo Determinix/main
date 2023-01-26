@@ -30,4 +30,8 @@
 .card-project-btn {
   @apply mx-[10px] absolute w-[300px] top-[155px] 2xl:w-[325px] 2xl:top-[180px] flex justify-between items-center;
 }
+
+.preview-btn {
+  @apply text-xl py-1 px-3 rounded-xl bg-sky-500 hover:bg-sky-300 text-slate-50;
+}
 /* Project End */
