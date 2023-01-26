@@ -8,7 +8,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -16,7 +16,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ export default function Project() {
           <div className="card-project-image">???</div>
           <div className="card-project-btn">
             <h1 className="text-xl">Empty</h1>
-            <button className="preview-btn">Live Preview</button>
+            <button className="preview-btn-project">Live Preview</button>
           </div>
         </div>
       </div>
