@@ -1,8 +1,0 @@
-Welcome to Determinix y'all
-
-The rules are simple:
-1. HTML
-2. CSS
-3. Javascript (Opsional)
-4. TailwindCSS
-just that for now, Got it? good
