@@ -2,7 +2,7 @@ import Hina from "./img/logo/Hina.png";
 
 export default function Home() {
   return (
-    <div className=" ">
+    <div className="">
       <div className="relative px-5 bg-gray-700 py-56 grid place-items-center text-center">
         <img src={Hina} className="opacity-10 absolute bottom-0 xl:right-32 2xl:right-48" alt="hina" />
         <h1 className="text-[58px] font-bold text-[#ff2c2c]">DETERMINIX</h1>
