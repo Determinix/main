@@ -2,7 +2,7 @@ import DXlogo1 from "./img/logo/DX-logo-1.png";
 
 export default function Footer() {
   return (
-    <footer className="justify-between bg-slate-900 text-white sm:py-24">
+    <footer className="justify-between bg-[#131313] text-white sm:py-24">
       <div className="sm:flex justify-center hidden">
         <div className="my-9 mr-52">
           <img src={DXlogo1} width="70" alt="dx" />

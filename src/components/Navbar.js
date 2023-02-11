@@ -5,7 +5,7 @@ export default function Navbar() {
   const navigate = useNavigate();
   return (
     <nav className="fixed z-50 w-full">
-      <div className="flex justify-between items-center px bg-slate-800 relative">
+      <div className="flex justify-between items-center px bg-[#131313] relative">
         <div>
           <img src={DXlogo3} alt="dxlogo" width="85" className="p-3 my-2" />
         </div>

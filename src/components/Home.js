@@ -1,4 +1,4 @@
-import image from "./img/home/home4.jpeg";
+import image from "./img/home/home3.jpeg";
 
 export default function Home() {
   return (
