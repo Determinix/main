@@ -1,79 +1,46 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import DXlogo3 from "./img/logo/DX-logo-3.png";
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  const project1 = () => navigate("project");
+  const project2 = () => alert("project");
   return (
     <nav className="fixed z-50 w-full">
-      <div className="flex justify-between items-center px bg-slate-800 relative">
+      <div className="flex justify-between items-center px bg-[#131313] opacity-90 relative">
         <div>
           <img src={DXlogo3} alt="dxlogo" width="85" className="p-3 my-2" />
         </div>
         {/* desktop */}
         <div className="sm:flex gap-10 text-slate-50 px-3 text-xl items-center hidden">
-          <Link
-            className="hover:text-slate-300"
-            to="/"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
-            }}
-          >
+          <button onClick={() => navigate("main")} className="hover:text-slate-300">
             Home
-          </Link>
-          <Link
-            className="hover:text-slate-300"
-            to="/Project"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
+          </button>
+          <button
+            onClick={() => {
+              project1();
+              project2();
             }}
+            className="hover:text-slate-300"
           >
             Project
-          </Link>
-          <Link
-            className="hover:text-slate-300"
-            to="/About"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
-            }}
-          >
+          </button>
+          <button onClick={() => navigate("about")} className="hover:text-slate-300">
             About
-          </Link>
+          </button>
         </div>
 
         {/* mobile */}
         <div className="gap-3 py-2 rounded-md text-slate-50 px-3 text-xl items-center sm:hidden absolute bg-slate-600 right-3 top-24 hidden" id="nav">
-          <Link
-            to="/"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
-            }}
-            className="block pb-1"
-          >
+          <button onClick={() => navigate("main")} className="block pb-1">
             Home
-          </Link>
-          <Link
-            to="/Project"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
-            }}
-            className="block pb-1"
-          >
+          </button>
+          <button onClick={() => navigate("project")} className="block pb-1">
             Project
-          </Link>
-          <Link
-            to="/About"
-            onClick={function hide() {
-              const home = document.querySelector("#home");
-              home.style.display = "none";
-            }}
-            className="block"
-          >
+          </button>
+          <button onClick={() => navigate("about")} className="block">
             About
-          </Link>
+          </button>
         </div>
         <div
           className="grid gap-[6px] sm:hidden"

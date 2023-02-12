@@ -20,7 +20,7 @@ export default function Agent() {
         </button>
       </div>
 
-      <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 place-items-center">
         <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
           <img src={Agung} alt="Agung" className="card-image-about" />
           <div>
@@ -45,51 +45,6 @@ export default function Agent() {
             <h1 className="card-text-about">Albi Fahri</h1>
             <div className="card-line-about"></div>
             <h1 className="card-text-about">Kuroneko</h1>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
-          <img alt="???" className="card-image-about" />
-          <div>
-            <h1 className="card-text-about">????</h1>
-            <div className="card-line-about"></div>
-            <h1 className="card-text-about">******</h1>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
-          <img alt="???" className="card-image-about" />
-          <div>
-            <h1 className="card-text-about">????</h1>
-            <div className="card-line-about"></div>
-            <h1 className="card-text-about">******</h1>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
-          <img alt="???" className="card-image-about" />
-          <div>
-            <h1 className="card-text-about">????</h1>
-            <div className="card-line-about"></div>
-            <h1 className="card-text-about">******</h1>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-odd">
-          <img alt="???" className="card-image-about" />
-          <div>
-            <h1 className="text-xl text-center">????</h1>
-            <div className="card-line-about"></div>
-            <h1 className="text-xl text-center">******</h1>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/difhaels/?hl=id" target={"_blank"} rel="noreferrer" className="card-agent-even">
-          <img alt="???" className="card-image-about" />
-          <div>
-            <h1 className="text-xl text-center">????</h1>
-            <div className="card-line-about"></div>
-            <h1 className="text-xl text-center">******</h1>
           </div>
         </a>
       </div>
