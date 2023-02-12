@@ -3,6 +3,8 @@ import DXlogo3 from "./img/logo/DX-logo-3.png";
 
 export default function Navbar() {
   const navigate = useNavigate();
+  const project1 = () => navigate("project");
+  const project2 = () => alert("project");
   return (
     <nav className="fixed z-50 w-full">
       <div className="flex justify-between items-center px bg-[#131313] opacity-90 relative">
@@ -14,7 +16,13 @@ export default function Navbar() {
           <button onClick={() => navigate("main")} className="hover:text-slate-300">
             Home
           </button>
-          <button onClick={() => navigate("project")} className="hover:text-slate-300">
+          <button
+            onClick={() => {
+              project1();
+              project2();
+            }}
+            className="hover:text-slate-300"
+          >
             Project
           </button>
           <button onClick={() => navigate("about")} className="hover:text-slate-300">
